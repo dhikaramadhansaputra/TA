@@ -1,0 +1,43 @@
+Catatan kasar Langkah penelitian
+=======================================
+Objek: Purbaya/etanol 10%
+=======================================
+
+1. Fase pengumpulan data
+ - Data dari komentar TikTok (3 atau 4 video masing masing 5.000 data?)
+ - Pengambilan dibantu dengan apify
+
+2. Preprocessing
+ - Menggunakan python
+ - pemilihan kolom (teks, tanggal, jumlah like, dll?)
+ - Pembersihan karakter, duplikat
+
+3. Pelabelan & Klasifikasi
+ - Kategori: positif, negatif, netral
+ - 10% dilabeli secara manual, sisanya otomatis
+ - Sebelum otomatisasi pelabelan, harus fine-tuning pake label manual:
+	- Fine tuning menggunakan parameter ngikut jurnal (Epoch, learning rate, batch size, dll.)
+ - Evaluasi untuk tiap klasifikasi (precision, recall, f1-score)
+ - Setelah klasifikasi pakai indobert yg di tuning, di evaluasi dan dibandingkan dgn algoritma lain.
+
+4. Ekstraksi topik pake algoritma TF-IDF
+ - perhitungan ada 3 (tf, idf, tf-idf). (pake fugsi logaritmik untuk tf biar ngurangin outlayer kata yg terlalu sering di dokumen)
+ - Kriteria (topik dengan 5 skor TF-IDF tertinggi (top 5 TF-IDF scores) di setiap postingan diekstrak dan dianalisis) (perlu penyesuaian? karna ini datanya dari TikTok komen)
+
+5.Analisis Deskriptif Sentimen Temporal dan Laju Perubahan
+ - distribusi sentiment keseluruhan (positif, negative dan netral)
+ - analisis tren harian dan korelasi peristiwa (grafik positif negative netral dan grafik jumlah post per bulan/tgl?)
+
+6. Analisis tematik sentiment negative (tujuan = memahami mengapa masyarakat mengungkapkan sentimen negatif.)
+ - filterisasi:
+	- Ambang Batas = fokuskan pada topik yang muncul di lebih dari 1% dari total unggahan di setiap kategori sentimen. Lima topik yang terlalu umum dan tidak memberikan wawasan interpretatifdikeluarkan.
+	- Topik Khas Negatif = Dari 19 topik kunci yang tersisa untuk sentimen negatif misalnya, 11 topik diidentifikasi sebagai khas (tidak dibagikan secara signifikan dengan sentimen Positif atau Netral (tidak ada di klasifikasi lain)).
+ - Pengelompokan Tema Utama
+ - Analisis Kausalitas Tematik (intinya interpretasi)
+
+
+=======================================
+aku mau mulai nyusun di notepad langkah langkah yang jelas nya beserta gimana caranya.
+
+aku ada artikel yang mungkin bisa jadi rujukan. tolong jabarkan langkah maupun sub-langkah yang ada di artikel ini, dan gimana serta pakai apa dia melakukan itu
+=====================================
