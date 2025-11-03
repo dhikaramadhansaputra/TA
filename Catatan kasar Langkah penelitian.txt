@@ -1,6 +1,8 @@
 Catatan kasar Langkah penelitian
 =======================================
 Objek: Purbaya/etanol 10%
+
+JUDUL fiks (sebelum bimbingan)= Kebijakan Dana Rp200 Triliun: Analisis Sentimen Publik di TikTok menggunakan Algoritma BERT dan TF-IDF
 =======================================
 
 1. Fase pengumpulan data
@@ -22,7 +24,7 @@ Objek: Purbaya/etanol 10%
 
 4. Ekstraksi topik pake algoritma TF-IDF
  - perhitungan ada 3 (tf, idf, tf-idf). (pake fugsi logaritmik untuk tf biar ngurangin outlayer kata yg terlalu sering di dokumen)
- - Kriteria (topik dengan 5 skor TF-IDF tertinggi (top 5 TF-IDF scores) di setiap postingan diekstrak dan dianalisis) (perlu penyesuaian? karna ini datanya dari TikTok komen)
+ - Kriteria (topik dengan 5 skor TF-IDF tertinggi (top 5 TF-IDF scores) di setiap klasifikasi diekstrak dan dianalisis) (perlu penyesuaian? karna ini datanya dari TikTok komen)
 
 5.Analisis Deskriptif Sentimen Temporal dan Laju Perubahan
  - distribusi sentiment keseluruhan (positif, negative dan netral)
