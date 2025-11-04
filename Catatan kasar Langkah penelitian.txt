@@ -1,8 +1,8 @@
 Catatan kasar Langkah penelitian
 =======================================
-Objek: Purbaya/etanol 10%
+Objek: Purbaya
 
-JUDUL fiks (sebelum bimbingan)= Kebijakan Dana Rp200 Triliun: Analisis Sentimen Publik di TikTok menggunakan Algoritma BERT dan TF-IDF
+JUDUL fiks (sebelum bimbingan)= Reaksi Publik terhadap Kinerja Awal Menteri Keuangan Purbaya Yudhi Sadewa: Analisis Sentimen TikTok menggunakan Algoritma BERT dan TF-IDF
 =======================================
 
 1. Fase pengumpulan data
@@ -39,7 +39,3 @@ JUDUL fiks (sebelum bimbingan)= Kebijakan Dana Rp200 Triliun: Analisis Sentimen 
 
 
 =======================================
-aku mau mulai nyusun di notepad langkah langkah yang jelas nya beserta gimana caranya.
-
-aku ada artikel yang mungkin bisa jadi rujukan. tolong jabarkan langkah maupun sub-langkah yang ada di artikel ini, dan gimana serta pakai apa dia melakukan itu
-=====================================
