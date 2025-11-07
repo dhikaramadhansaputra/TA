@@ -1,0 +1,23 @@
+Revisi November Q1
+===================================
+
+1. Judul fiks jadi : Reaksi Publik terhadap Kinerja Menteri Keuangan RI: Analisis Sentimen menggunakan Algoritma BERT
+
+2. Pelajari:
+ - apa itu korpus
+ - Tahapan umum NLP
+ - Tahapan analisis sentiment
+ - Tahapan bert?
+ - Keunggulan bert
+ - bert itu termasuk n-gram yang mana? apa malah bukan?
+ - pelajari tentang supervised dan unsupervised terkait klasifikasi topik? karna harus ada aturan seperti apa yang positif, negatif atau netral.
+- Tinjauan pustaka (apa itu, syarat, jumlah tinjauan pustaka, dll)
+
+3. Terkait flowchart:
+ - Cara bikin flowchart harus sesuai IPO (bentu kotak, ddl (gatau IPO apaan))
+ - penulisan langkah harus menggunakan kata kerja (yang perlu, misal data duplikat harusnya ditulis menghapus data duplikat)
+ - harus di tokenisasi dll dulu sebelum preprocessing, klasifikasi, dll (kata bu fida, manut aja tp konfirm ke gemini juga).
+ - gausah cantumin hal yang terlalu teknis (misal TF-IDF ya tulis TF-IDF aja gausah TF, IDF, TF-IDF, dll)
+ - gausah ada fase rekomendasi, cukup sampe interpretasi aja (gapunya kapasitas kata bu fida)
+
+4. cari tinjauan pustaka
