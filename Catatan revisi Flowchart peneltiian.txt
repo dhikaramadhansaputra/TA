@@ -1,15 +1,16 @@
+==================================
 Revisi November Q1
 ===================================
 
-1. Judul fiks jadi : Reaksi Publik terhadap Kinerja Menteri Keuangan RI: Analisis Sentimen menggunakan Algoritma BERT
+1. Judul fiks jadi karena di revisi dosen pembimbing : Reaksi Publik terhadap Kinerja Menteri Keuangan RI: Analisis Sentimen menggunakan Algoritma BERT
 
 2. Pelajari:
- - apa itu korpus
- - Tahapan umum NLP
- - Tahapan analisis sentiment
- - Tahapan bert?
- - Keunggulan bert
- - bert itu termasuk n-gram yang mana? apa malah bukan?
+ - apa itu korpus = sekumpulan dokumen yang berisi data berupa teks
+ - Tahapan umum NLP = pengumpulan data (korpus), preprocessing, TF-IDF, klasifikasi, evaluasi, interpretasi
+ - Tahapan analisis sentiment = pengumpulan korpus, preprocessing, pelabelan manual (10%), ekstraksi fitur (TF-IDF ke korpus yang sudah dilabeli), pembuatan model klasifikasi, prediksi otomatis ke seluruh korpus, evaluasi.
+ - Tahapan bert? = pengumpulan data, preprocessing ringan (tanpa stemming dan stopword removal), pelabelan manual, tokenisasi + tambahkan dense layer, fine tuning model, klasifikasi otomatis, evaluasi
+ - Keunggulan bert = Bisa memahami makna kalimat: dengan menyimpang kata dalam bentuk embbedings vector kemudian dilanjutkan dengan transformer yang punya banyak layer (memahami hubungan antar kata dengan mekanisme self-attention (membandingkan apakah kata lain mempengaruhi aku dengan 3 parameter yaitu querry (apa yang dicari kata ini), key (apa yang dimiliki kata lain), dan value (informasi makna kata lain)))
+ - bert itu termasuk n-gram yang mana? apa malah bukan? = bukan, karena N-gram hanya bisa melihat tetangga dan harus urut. sedangkan BERT bisa melihat semua kalimat dan ga harus urut karena ada mekanisme self-attention
  - pelajari tentang supervised dan unsupervised terkait klasifikasi topik? karna harus ada aturan seperti apa yang positif, negatif atau netral.
 - Tinjauan pustaka (apa itu, syarat, jumlah tinjauan pustaka, dll)
 
