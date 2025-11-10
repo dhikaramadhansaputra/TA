@@ -11,8 +11,8 @@ Revisi November Q1
  - Tahapan bert? = pengumpulan data, preprocessing ringan (tanpa stemming dan stopword removal), pelabelan manual, tokenisasi + tambahkan dense layer, fine tuning model, klasifikasi otomatis, evaluasi
  - Keunggulan bert = Bisa memahami makna kalimat: dengan menyimpang kata dalam bentuk embbedings vector kemudian dilanjutkan dengan transformer yang punya banyak layer (memahami hubungan antar kata dengan mekanisme self-attention (membandingkan apakah kata lain mempengaruhi aku dengan 3 parameter yaitu querry (apa yang dicari kata ini), key (apa yang dimiliki kata lain), dan value (informasi makna kata lain)))
  - bert itu termasuk n-gram yang mana? apa malah bukan? = bukan, karena N-gram hanya bisa melihat tetangga dan harus urut. sedangkan BERT bisa melihat semua kalimat dan ga harus urut karena ada mekanisme self-attention
- - pelajari tentang supervised dan unsupervised terkait klasifikasi topik? karna harus ada aturan seperti apa yang positif, negatif atau netral.
-- Tinjauan pustaka (apa itu, syarat, jumlah tinjauan pustaka, dll)
+ - pelajari tentang supervised dan unsupervised terkait klasifikasi topik? karna harus ada aturan seperti apa yang positif, negatif atau netral. = udah paham, intinya kalo supervised learning itu ada panduan label manualnya. dan harus jelas yang di labelin positif itu kalimat yang seperti apa, dll.
+- Tinjauan pustaka (apa itu, syarat, jumlah tinjauan pustaka, dll) = intinya penelitian terdahulu. sumber data, objek, metode, hasil akhir, harus ada yang sama dan relevan untuk mencari gap researchnya
 
 3. Terkait flowchart:
  - Cara bikin flowchart harus sesuai IPO (bentu kotak, ddl (gatau IPO apaan))
