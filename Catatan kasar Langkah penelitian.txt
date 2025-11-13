@@ -39,3 +39,20 @@ JUDUL fiks (sebelum bimbingan)= Reaksi Publik terhadap Kinerja Awal Menteri Keua
 
 
 =======================================
+
+
+
+
+========================================
+Hasil setelah evisi November Q1
+========================================
+1. Mulai
+2. Pengumpulan data
+3. preprocessing
+4. Pelabelan manual
+5. tokenisasi
+6. fine tuning
+7. klasifikasi otomatis
+8. Evaluasi
+9. topik modelling
+10. interpretasi

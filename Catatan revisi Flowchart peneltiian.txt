@@ -8,7 +8,7 @@ Revisi November Q1
  - apa itu korpus = sekumpulan dokumen yang berisi data berupa teks
  - Tahapan umum NLP = pengumpulan data (korpus), preprocessing, TF-IDF, klasifikasi, evaluasi, interpretasi
  - Tahapan analisis sentiment = pengumpulan korpus, preprocessing, pelabelan manual (10%), ekstraksi fitur (TF-IDF ke korpus yang sudah dilabeli), pembuatan model klasifikasi, prediksi otomatis ke seluruh korpus, evaluasi.
- - Tahapan bert? = pengumpulan data, preprocessing ringan (tanpa stemming dan stopword removal), pelabelan manual, tokenisasi + tambahkan dense layer, fine tuning model, klasifikasi otomatis, evaluasi
+ - Tahapan bert? = pengumpulan data, preprocessing ringan (tanpa stemming dan stopword removal), pelabelan manual, tokenisasi + tambahkan dense layer, fine tuning model, klasifikasi otomatis, evaluasi, topic modelling, interpretasi tiap kelas
  - Keunggulan bert = Bisa memahami makna kalimat: dengan menyimpang kata dalam bentuk embbedings vector kemudian dilanjutkan dengan transformer yang punya banyak layer (memahami hubungan antar kata dengan mekanisme self-attention (membandingkan apakah kata lain mempengaruhi aku dengan 3 parameter yaitu querry (apa yang dicari kata ini), key (apa yang dimiliki kata lain), dan value (informasi makna kata lain)))
  - bert itu termasuk n-gram yang mana? apa malah bukan? = bukan, karena N-gram hanya bisa melihat tetangga dan harus urut. sedangkan BERT bisa melihat semua kalimat dan ga harus urut karena ada mekanisme self-attention
  - pelajari tentang supervised dan unsupervised terkait klasifikasi topik? karna harus ada aturan seperti apa yang positif, negatif atau netral. = udah paham, intinya kalo supervised learning itu ada panduan label manualnya. dan harus jelas yang di labelin positif itu kalimat yang seperti apa, dll.
@@ -21,4 +21,8 @@ Revisi November Q1
  - gausah cantumin hal yang terlalu teknis (misal TF-IDF ya tulis TF-IDF aja gausah TF, IDF, TF-IDF, dll)
  - gausah ada fase rekomendasi, cukup sampe interpretasi aja (gapunya kapasitas kata bu fida)
 
-4. cari tinjauan pustaka
+4. Cari tau untuk menemukan topik tertentu dan menggolongkannya kedalam beberapa tema (mungkin BERT ada tools nya) = pakai BERTopic, jalankan per kelas
+
+4. cari tinjauan Pustaka
+
+=====================================================
