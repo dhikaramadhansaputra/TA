@@ -26,3 +26,24 @@ Revisi November Q1
 4. cari tinjauan Pustaka
 
 =====================================================
+
+=================================
+Revisi November Q2
+=================================
+Terkait Flowchart
+1. Hanya ada 4 fase: dataset, preprocessing, klasifikasi, analisis
+2. pada preprocessing harus dijelasin apa aja prosesnya (dibuat fase:  hapus duplikat, tokenisasi, cleaning, lowercase, normalisasi?)
+3. gausah ada fine tuning. pokoknya ikutin alur nomer 1 aja udah
+4. evaluasi dulu baru output dataset terklasifikasi
+5. MAKEE IT SIMPLE BROTHERRRR
+
+Pelajari
+1. gimana kalo missal gapake fine tuning, apakah ada pelabelan manual?
+2. apakah ada evaluasi kalo ga pake fine tuning? jika iya. pelajari apa itu data training, validasi, testing. dan dari mana sumber datanya untuk masing masing itu (apakah dari dataset atau beda dataset?)
+
+Terkait tinjauan Pustaka:
+1. cari 10 tinjauan Pustaka pada jurnal yg bagus (5 yang pake BERT, 5 yang objeknya mentri)
+2. yang harus dirangkum: judul, nama, tahun, objek penelitian, sumber & jumlah data, hasil Utama/temuan
+3. semua penjelasan rangkuman kalo bisa pake angka datanya (jangan mayoritas, dll)
+4. RANGKUM MANUALLL JANGAN PAKE AI BOSSSS
+======================================
