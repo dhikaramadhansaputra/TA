@@ -52,11 +52,11 @@ Terkait tinjauan Pustaka:
 Catatan Revisi November Q3 - sudah dibolehkan buat proposal
 ======================================================
 Tentang flowchart:
-1. dari lowercasing lanjut ke splitting data
-2. Klasifikasi menggunakan BERT, jangan cuma klasifikasi
-3. dataset terklasifikasi dulu baru evaluasi
-4. evaluasi menggunakan matrisk evaluasi apa aja (ada 4)
-5. gausah ada proses interpretasi, langsung ke interpretasi
+1. (done) dari lowercasing lanjut ke splitting data
+2. (done) Klasifikasi menggunakan BERT, jangan cuma klasifikasi
+3. (done) dataset terklasifikasi dulu baru evaluasi
+4. (done) evaluasi menggunakan matrisk evaluasi apa aja (ada 4)
+5. (done) gausah ada proses interpretasi, langsung ke interpretasi
 
 Tambahan:
 1. tamnbahkan contoh kalimat pada aturan klasifikasi
@@ -64,3 +64,4 @@ Tambahan:
 3. coba cari kamus BERT yang bisa memahami sarkasme
 4. Cari proporsi pembagian data evaluasi (training, validation, testing) lewat artikel
 5. dataset evaluasi diambil dari dataset yg berbeda
+6. kurangi aturan untuk sarkasme. karena kemungkinan ga akan bisa memahami BERT nya
