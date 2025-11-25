@@ -1,0 +1,22 @@
+=====================
+Garis Besar Proposal (menurut proposal kating)
+=====================
+halaman judul cover hard
+halaman judul daleman
+halaman persetujuan
+BAB 1 Pendahuluan:
+ - Latar belakang masalah
+ - Rumusan masalah
+ - Batasan masalah
+ - Tujuan penelitian
+ - Manfaat penelitian
+BAB 2 Tinjauan Pustaka:
+ - Penelitian terdahulu
+ - Landasan teori
+BAB 3 Metode Penelitian:
+ - Jenis penelitian
+ - Sumber data
+ - Alur penelitian
+ - Uraian penelitian
+Daftar Pustaka
+=============================
