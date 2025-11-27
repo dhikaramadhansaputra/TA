@@ -1,11 +1,11 @@
 =====================
 Garis Besar Proposal (menurut proposal kating)
 =====================
-halaman judul cover hard
-halaman judul daleman
-halaman persetujuan
+(done) halaman judul cover hard
+(done) halaman judul daleman
+(done) halaman persetujuan
 BAB 1 Pendahuluan:
- - Latar belakang masalah
+ - (kurang penguat referensi + ada kata yg masih kurang bisa dipahami) Latar belakang masalah
  - Rumusan masalah
  - Batasan masalah
  - Tujuan penelitian
