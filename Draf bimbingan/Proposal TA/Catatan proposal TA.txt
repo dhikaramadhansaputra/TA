@@ -5,9 +5,9 @@ Garis Besar Proposal (menurut proposal kating)
 (done) halaman judul daleman
 (done) halaman persetujuan
 BAB 1 Pendahuluan:
- - (kurang penguat referensi + ada kata yg masih kurang bisa dipahami) Latar belakang masalah
- - Rumusan masalah
- - Batasan masalah
+ - (done) Latar belakang masalah
+ - (done) Rumusan masalah
+ - (done) Batasan masalah
  - Tujuan penelitian
  - Manfaat penelitian
 BAB 2 Tinjauan Pustaka:
