@@ -4,19 +4,19 @@ Garis Besar Proposal (menurut proposal kating)
 (done) halaman judul cover hard
 (done) halaman judul daleman
 (done) halaman persetujuan
-BAB 1 Pendahuluan:
+(done) BAB 1 Pendahuluan:
  - (done) Latar belakang masalah
  - (done) Rumusan masalah
  - (done) Batasan masalah
- - Tujuan penelitian
- - Manfaat penelitian
+ - (done) Tujuan penelitian
+ - (done) Manfaat penelitian
 BAB 2 Tinjauan Pustaka:
- - Penelitian terdahulu
- - Landasan teori
+ - (done) Penelitian terdahulu
+ - Landasan teori (hanya definisi umum)
 BAB 3 Metode Penelitian:
  - Jenis penelitian
  - Sumber data
  - Alur penelitian
- - Uraian penelitian
+ - Uraian penelitian (harus ada rumus)
 Daftar Pustaka
 =============================
